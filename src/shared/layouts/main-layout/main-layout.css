@@ -1,0 +1,21 @@
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--accent);
+    color: var(--primary);
+
+    .main-header {
+        background-color: var(--primary);
+        height: 50px;
+        color: var(--accent);
+        padding: 0 5px;
+        display: flex;
+        align-items: center;
+        cursor: default;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
